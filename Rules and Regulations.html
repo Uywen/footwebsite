@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
+    <link rel="stylesheet" href="RulesandRegulations.css">
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   
+    <link rel="stylesheet" href="index.css">
+    <title>Rules and Regulations</title>
+</head>
+<body>
+
+    <h1>Rules and Regulations</h1>
+
+<!-- used an unorder list to display the rules and regulations -->
+    <ul>
+        <li>Each team consists of 11 players. These are made up of one goalkeeper and ten outfield players. The pitch dimensions vary from each ground but are roughly 120 yards long and 75 yards wide. On each pitch you will have a 6 yard box next to the goal mouth, an 18 yard box surrounding the 6 yard box and a centre circle. Each half of the pitch must be a mirror image of the other in terms of dimensions.</li>
+        <li>The ball must have a circumference of 58-61cm and be of a circular shape.</li>
+        <li>Each team can name up to 7 substitute players. Substitutions can be made at any time of the match with each team being able to make a maximum of 3 substitutions per side.</li>
+        <li>For fouls committed a player could receive either a yellow or red card depending on the severity of the foul; this comes down to the referee's discretion. The yellow is a warning and a red card is a dismissal of that player. Two yellow cards will equal one red. Once a player is sent off then they cannot be replaced.</li>
+        <li>If a ball goes out of play off an opponent in either of the side lines then it is given as a throw in. If it goes out of play off an attacking player on the base line then it is a goal kick. If it comes off a defending player it is a corner kick.</li>
+        <li>Offside can be called when an attacking player is in front of the last defender when the pass is played through to them. The offside area is designed to discourage players from simply hanging around the opponent's goal waiting for a pass. To be onside they must be placed behind the last defender when the ball is played to them. If the player is in front of that last defender then he is deemed to be offside and free kick to the defending team will be called.</li>
+    </ul>
+
+    <h2 class="like-me">If you like what you read  click the button  below</h2>
+    <button class="rules-button" onclick="like()">Like button</button>
+    <!-- placed my form in a footer -->
+    <!-- used the column grid the display the form vertically -->
+    <!-- used a submit form -->
+<footer>
+    <div class="comments">
+        <label>Share your opinion on the rules and regulations</label>
+        <input type="text" id="putting"  placeholder="Enter your comment here">
+            <button onclick="updateList()"  id="addBtn">Add a comment</button>
+            <h2 class="comments">Comments:</h2>
+            <ul class="comments" id="itemList"></ul>
+    </div>
+    
+    <div>
+    
+</div>
+    <form>
+        <div class="form-group">
+            <label class="control-label col-md-2" for="fname">Name :</label>
+            <div class="col-md-5">
+                <input type="text" class="form-control  marg" id="fname" placeholder="Enter Name" name="fname">
+            </div>
+            <label class="control-label col-md-2" for="Lname">Surname :</label>
+            <div class="col-md-5">
+                <input type="text" class="form-control  marg" id="Lname" placeholder="Enter Surname" name="Lname">
+            </div>
+            <input type="submit" value="Submit" class="marg">
+         </div>
+    </form>
+</footer>
+    
+<script src="./football.js"></script>
+</body>
+</html>
+

@@ -1,0 +1,57 @@
+body{
+    max-width: 900px;
+    background-image: url("https://www.si.com/.image/ar_1:1%2Cc_fill%2Ccs_srgb%2Cfl_progressive%2Cq_auto:good%2Cw_1200/MTkwMTk2NTg3NDQyNDgwNDcw/world-cup-trophy.jpg");
+    background-size: cover;
+    position: absolute;
+    background-repeat: repeat;
+}
+
+h1{
+    text-align: center;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 50px;
+    color:black;
+}
+
+h2{
+    text-align: center;
+    color: black;
+    background-color: white;
+}
+
+p{
+    text-align: center;
+    color: white;
+    background-color: black;
+}
+
+table,td{
+    border: 1px solid white;
+    text-align: center;
+    color: black;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
+.center{
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.scale{
+    height:100%
+}
+
+form{
+    background-color: white;
+}
+
+.like-me{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+.like-btn{
+    margin-left: 25rem;
+    margin-bottom: 2rem;
+    margin-top: 2rem;
+}

@@ -1,0 +1,40 @@
+/* added a background image  */
+/* made the webpage have a max-width of 900px */
+/* made my background repeat */
+body{
+    background-image: url("https://www.ft.com/__origami/service/image/v2/images/raw/https%3A%2F%2Fs3-eu-west-1.amazonaws.com%2Ffta-ez-prod%2Fez%2Fimages%2F8%2F3%2F9%2F0%2F2070938-4-eng-GB%2FReferee.jpg%3Fv1?source=ftadviser");
+    max-width:900px;
+    background-size:cover;
+    background-repeat:repeat;
+    position: absolute;
+}
+/* added the following styles to the h1 tags */
+h1{
+    margin:10px;
+    text-align: left;
+    color: white;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+/* added the following styles to the ul tags */
+ul{
+    color:white;
+    font-size: 20px;
+}
+/* made the forms background color white */
+form{
+    background-color: white;
+}
+/* added this style in the forms input type */
+.marg{
+    margin: 4px;
+}
+
+.rules-button{
+    margin-left: 10rem;
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+.like-me{
+    color: white;
+}
